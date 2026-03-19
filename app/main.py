@@ -1,4 +1,3 @@
-from app.warriors.knights import KNIGHTS
 from app.warriors.knights import Knights
 
 
