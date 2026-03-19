@@ -1,3 +1,6 @@
+from typing import Optional
+
+
 KNIGHTS = {
     "lancelot": {
         "name": "Lancelot",
@@ -94,7 +97,7 @@ class Knights:
             hp: int,
             armour: list,
             weapon: dict,
-            potion: dict
+            potion: Optional[dict]
     ) -> None:
         self.name = name
         self.power = power

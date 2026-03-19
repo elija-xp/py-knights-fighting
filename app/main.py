@@ -16,6 +16,3 @@ def battle(knights_config: dict) -> dict:
         k2.hp = max(k2.hp, 0)
 
     return {k.name: k.hp for k in knights}
-
-
-print(battle(KNIGHTS))
