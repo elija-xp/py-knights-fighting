@@ -1,4 +1,4 @@
-from app.warriors.knights import Knights, KNIGHTS
+from app.warriors.knights import Knights
 
 
 def battle(knights_config: dict) -> dict:
